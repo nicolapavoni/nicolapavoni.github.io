@@ -1,0 +1,42 @@
+SITO WEB – Nicola Pavoni
+========================
+
+Contenuto della cartella
+- index.html           -> Home
+- publications.html    -> Pubblicazioni (con link DOI e PDF)
+- working-papers.html  -> Working papers
+- cv.html              -> CV in sintesi, con link al PDF completo
+- style.css            -> lo stile, comune a tutte le pagine
+- cv.pdf               -> CV completo (maggio 2026)
+- papers/              -> i PDF di articoli e working paper
+- foto.jpg             -> (facoltativo) la foto della Home. Se manca, il sito usa
+                          quella della MyPage Bocconi.
+
+Per modificare: aprite i file .html con un editor di testo (TextEdit in modalità
+testo semplice, VS Code, BBEdit). Ogni articolo è un blocco <li>...</li>:
+copiatene uno e cambiate titolo, coautori, rivista e link.
+Per vedere il risultato basta fare doppio clic su index.html.
+Per aggiornare il CV: sostituite cv.pdf con la nuova versione, stesso nome.
+
+
+COME PUBBLICARLO (caricate SEMPRE tutta la cartella, compresa "papers")
+
+A) GitHub Pages – gratis, il più usato dagli economisti
+   1. Create un account su github.com.
+   2. Create un repository chiamato  <vostro-username>.github.io  (pubblico).
+   3. "Add file" > "Upload files": trascinate tutto il contenuto della cartella > Commit.
+   4. Dopo un paio di minuti il sito è online su https://<vostro-username>.github.io
+
+B) Netlify Drop – gratis, il più rapido (nessun account Git)
+   1. Andate su app.netlify.com/drop
+   2. Trascinate l'intera cartella "sito-web" nella pagina.
+   3. Il sito è online subito; registratevi per tenerlo e cambiarne il nome.
+
+C) Qualsiasi hosting tradizionale (Aruba, Register, server Bocconi, ecc.)
+   Caricate tutto il contenuto della cartella via FTP o dal pannello dell'hosting.
+
+DOMINIO PERSONALE (consigliato)
+   Comprate ad es. nicolapavoni.com (circa 10–15 €/anno). GitHub Pages e Netlify
+   spiegano nelle impostazioni come collegarlo.
+
+Nota: provino_foto.jpg non fa parte del sito e si può cancellare.
